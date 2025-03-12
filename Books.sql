@@ -26,4 +26,8 @@ VALUES
 ("What the Woods Took", 'Courtney Gould', 'Horror', 3.91, 3.0);
 */
 
+INSERT INTO Books (Titel, Autor, Genre, grRating, MyRating)
+VALUES
+("Hunted", "Darcy Coates", "Horror", 4.03, 4.0);
+
 SELECT * FROM Books;
