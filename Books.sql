@@ -10,14 +10,14 @@ DROP DATABASE books;
 CREATE DATABASE books;
 
 CREATE TABLE Books (
-	BuchID int NOT NULL AUTO_INCREMENT,
+	BookID int NOT NULL AUTO_INCREMENT,
     Title varchar(255),
     Author varchar(255),
     Genre varchar(255),
     grRating float,
     MyRating float,
     yearRead years,
-    PRIMARY KEY (BuchID)
+    PRIMARY KEY (BookID)
 );
 
 INSERT INTO Books (Title, Author, Genre, grRating, MyRating, yearRead)
