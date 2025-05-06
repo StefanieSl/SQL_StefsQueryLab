@@ -1,9 +1,8 @@
 /*
 
-DB for my books read
+DB for books read
 
 */
-
 
 DROP DATABASE books;
 
@@ -16,7 +15,7 @@ CREATE TABLE Books (
     Genre varchar(255),
     grRating float,
     MyRating float,
-    yearRead years,
+    yearRead year,
     PRIMARY KEY (BookID)
 );
 
